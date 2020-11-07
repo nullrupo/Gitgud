@@ -1,0 +1,20 @@
+h3 {
+	text-align : center;
+}
+td:hover{
+	background-color : red;
+	opacity: 0.8;
+}
+tr.odd{
+	background-color : rgb(179, 117, 72, .4);
+	color : hotpink;
+	border: 1px yellow;
+	padding: 5px;
+}
+tr.even{
+	background-color : rgba(51, 170, 51, .4);
+	color : cyan;
+} 
+h2 {
+	text-align:left
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Nhập thông tin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/form.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/navbtn.css">
+<link rel="stylesheet" type="text/css" href="css/navbar.css">
+<link rel="stylesheet" type="text/css" href="css/res.css">
+<link rel="stylesheet" type="text/css" href="css/res-bg.css">
+<script type="text/javascript" src="js/res-menu.js"></script>
+</head>
+<body>
+	<br>
+	<div id="topnav" class="topnav">
+		<a href="index.html">Trang chủ</a>
+		<div class="dropdown">
+			<button class="dropbtn">Thông tin cá nhân
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="info.html">Bảng</a>
+				<a href="info1.html">Sở thích cá nhân</a>
+			</div>
+		</div> 
+		<a class="active" href="form.html">Nhập dữ liệu bảng</a>
+		<div class="dropdown">
+			<button class="dropbtn">Bài tập lớn
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="projects/Intro.html">Giới thiệu</a>
+				<a href="projects/IMAP.html">Bản đồ tương tác</a>
+				<a href="projects/WikiMap.html">Bản đồ Wiki</a>
+			</div>
+		</div> 
+		<a href="challenge1.html">Challenge 1</a>
+		<a href="https://twitter.com/nullrupo">Trang cá nhân</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>		
+	</div>
+	<br>
+	<h3><form>
+		<label for="hoten">Họ tên :</label><br>
+		<input type="text" id="hoten" placeholder="Nhập họ tên" name="hoten"><br>
+	</form>
+	<h3>Giới tính :
+		<select name = "Giới tính">
+			<option value="Nam">Nam</option>
+			<option value="Nữ">Nữ</option>
+		</select>
+	<h3>Năm sinh :
+		<select name = "Năm sinh">
+			<option value="1995">1995</option>
+			<option value="1996">1996</option>
+			<option value="1997">1997</option>
+			<option value="1998">1998</option>
+			<option value="1999">1999</option>
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>	
+		</select>
+	<h3>Chọn chuyên ngành :
+	<input list="browsers">
+		<datalist id="browsers">
+			<option value="CNTTDH">CNTT Địa học</option>
+			<option value="KHMT">Khoa học máy tính</option>
+			<option value="TKT">Tin kinh tế</option>
+			<option value="CNPM">Công nghệ phần mềm</option>
+		</datalist>
+	<h3>Khóa :
+		<select name = "Khóa">
+			<option value="58">K58</option>
+			<option value="59">K59</option>
+			<option value="60">K60</option>
+			<option value="61">K61</option>
+			<option value="62">K62</option>
+			<option value="63">K63</option>
+			<option value="64">K64</option>	
+		</select>
+	<h3>Số điện thoại :
+		<input type="text" name="SDT" placeholder="Nhập sdt">
+	<h3>Email :
+		<input type="text" name="Email" placeholder="Nhập email">	
+	<h3>Ảnh :
+		<form action="img" method="post" enctype="multipart/form-data">
+			<input type="file" name="fileToUpload" id="fileToUpload">
+			<input type="submit" value="Upload Image" name="submit">
+		</form>
+	<h3>Sở thích cá nhân :
+		<textarea name="message" rows="3" cols="30">Hãy viết về sở thích bản thân</textarea>
+	<button type="submit">Xác nhận</button>
+	<div class="back"><image><a href="index.html"><image src="resources/main/back.png"style="width:50px;height:50px" alt="Quay lại">
+	<div class="logout"><image><a href="login.html"><image src="resources/main/l_out.png"style="width:50px;height:50px" alt="Đăng xuất">
+</body>
+</html>

@@ -1,0 +1,12 @@
+div.back {
+	position: fixed;
+	bottom: 60px;
+	right: 16px;
+	border: solid Yellow;
+} 
+div.logout {
+	position: fixed;
+	bottom: 0px;
+	right: 16px;
+	border: solid Yellow;
+} 

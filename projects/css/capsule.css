@@ -1,0 +1,12 @@
+body {
+	background-image: url("../resources/wall.jpg");
+	object-fit: cover;
+}
+p {
+	color : black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+object {
+     width:100%;
+     max-height:100%;
+}

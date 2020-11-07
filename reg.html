@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/auth.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<h2>Trang đăng ký</h2>
+<form action="login.html">
+	<div class="container">
+    <p>Nhập thông tin đăng ký</p>
+		<hr>
+		<label for="name"><b>Nhập họ tên</b></label>
+		<input type="text" placeholder="Nhập tên" name="name" required>
+		
+		<label for="user"><b>Nhập username:</b></label>
+		<input type="text" placeholder="Nhập username" name="user" required>
+		
+		<label for="email"><b>Email:</b></label>
+		<input type="text" placeholder="Enter Email" name="email" required>
+
+		<label for="psw"><b>Mật khẩu:</b></label>
+		<input type="password" placeholder="Nhập mật khẩu" name="psw" required>
+
+		<label for="psw-rep"><b>Xác nhận mật khẩu:</b></label>
+		<input type="password" placeholder="Nhập lại mật khẩu" name="psw-rep" required>
+		<label for="phone"><b>Số điện thoại:</b></label>
+		<select name="Vùng">
+			<option value="+84">Việt Nam: +84</option>
+			<option value="+1">Mỹ: +1</option>
+			<option value="+86">Trung Quốc: +86</option>
+			<option value="+33">Pháp: +33</option>
+			<option value="+49">Đức: +49</option>
+			<option value="+7">Nga: +7</option>
+		</select>
+		<input type="text" placeholder="Nhập số điện thoại" name="phone" required>
+		<label for="secret"><b>Chọn câu hỏi bảo mật:</b></label>
+		<select name="Câu hỏi" id="secret">
+			<option value="q1">Cấp 1 bạn học trường gì?</option>
+			<option value="q2">Tên của thú cưng đầu tiên?</option>
+			<option value="q3">Cuốn sách yêu thích?</option>
+		<label for="answer"><b>Nhập câu trả lời:</b></label>
+		<input type="text" placeholder="Nhập câu trả lời" name="answer" required>
+		<hr>
+		<button type="reset" value="reset">Hủy</button>
+		<button type="submit" class="regbtn">Đăng ký</button>
+	</div>
+	<div class="container signin">
+		<p>Đã có tài khoản? Đăng nhập <a href="login.html">tại đây</a>.</p>
+	</div>
+</form>
+</body>
+</html>

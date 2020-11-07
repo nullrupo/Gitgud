@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Thông tin cá nhân</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/info.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/navbtn.css">
+<link rel="stylesheet" type="text/css" href="css/navbar.css">
+<link rel="stylesheet" type="text/css" href="css/res.css">
+<link rel="stylesheet" type="text/css" href="css/res-bg.css">
+<script type="text/javascript" src="js/get-img.js"></script>
+<script type="text/javascript" src="js/res-menu.js"></script>
+</head>
+<body>
+	<br>
+	<div id="topnav" class="topnav">
+		<a href="index.html">Trang chủ</a>
+			<div class="dropdown">
+		<button class="dropbtn">Thông tin cá nhân
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+			<a class="active" href="info.html">Bảng</a>
+			<a href="info1.html">Sở thích cá nhân</a>
+		</div>
+	</div> 
+		<a href="form.html">Nhập dữ liệu bảng</a>
+		<div class="dropdown">
+			<button class="dropbtn">Bài tập lớn
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="projects/Intro.html">Giới thiệu</a>
+				<a href="projects/IMAP.html">Bản đồ tương tác</a>
+				<a href="projects/WikiMap.html">Bản đồ Wiki</a>
+			</div>
+		</div> 
+		<a href="challenge1.html">Challenge 1</a>
+		<a href="https://twitter.com/nullrupo">Trang cá nhân</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<br>
+	<h3>
+		<table border="1">
+			<tr class="odd">
+				<td>Họ tên</td>
+				<td>Giới tính</td>
+				<td>Năm sinh</td>
+				<td>Chuyên ngành</td>
+				<td>Khóa</td>
+				<td>Số điện thoại</td>
+				<td>Email</td>
+				<td>
+					<div><form action="img" method="post" enctype="multipart/form-data">
+						<label for="file"><b>Chọn ảnh mới:</b></label>
+						<br>
+						<input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">
+					</form>
+				</td>
+			</tr>
+			<tr class="even">
+				<td>Long</td>
+				<td>Nam</td>
+				<td>1998</td>
+				<td>Khoa Học Máy Tính Ứng Dụng</td>
+				<td>62</td>
+				<td>0899316304</td>
+				<td>nanayantaro@gmail.com</td>
+				<td><img id="output" src="resources/img.gif"/>
+				</td>
+		</table>	
+	<div class="back"><image><a href="index.html"><image src="resources/main/back.png"style="width:50px;height:50px" alt="Quay lại">
+	<div class="logout"><image><a href="login.html"><image src="resources/main/l_out.png"style="width:50px;height:50px" alt="Đăng xuất">
+</body>
+</html>

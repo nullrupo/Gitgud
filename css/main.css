@@ -1,0 +1,9 @@
+body{
+	background-color: #cccccc;
+	color : tomato;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+html {
+    height: 100%
+}

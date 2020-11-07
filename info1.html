@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Sở thích cá nhân</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/navbtn.css">
+<link rel="stylesheet" type="text/css" href="css/navbar.css">
+<link rel="stylesheet" type="text/css" href="css/res.css">
+<link rel="stylesheet" type="text/css" href="css/res-bg.css">
+<script type="text/javascript" src="js/res-menu.js"></script>
+</head>
+<style>
+}
+h1 {
+	bold;
+	color : rgb(0, 125, 255)
+}
+u {
+	color: rgb(255, 255, 0)
+}
+li {
+	list-style: none;
+}
+li:before {
+	content: "• ";
+	color: black;
+}
+ol {
+	counter-reset: item;
+}
+ol li {
+	display: block;
+}
+ol li:before {
+	content: counter(item)". ";
+	counter-increment: item;
+	color: black;
+}
+li:hover:before {
+	color: red;
+	opacity: 0.8;
+</style>
+<body>
+	<div id="topnav" class="topnav">
+		<a href="index.html">Trang chủ</a>
+			<div class="dropdown">
+		<button class="dropbtn">Thông tin cá nhân
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+			<a href="info.html">Bảng</a>
+			<a class="active" href="info1.html">Sở thích cá nhân</a>
+		</div>
+	</div> 
+		<a href="form.html">Nhập dữ liệu bảng</a>
+		<div class="dropdown">
+			<button class="dropbtn">Bài tập lớn
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="projects/Intro.html">Giới thiệu</a>
+				<a href="projects/IMAP.html">Bản đồ tương tác</a>
+				<a href="projects/WikiMap.html">Bản đồ Wiki</a>
+			</div>
+		</div> 
+		<a href="challenge1.html">Challenge 1</a>
+		<a href="https://twitter.com/nullrupo">Trang cá nhân</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2>
+		<u>
+			<ul>
+				<li>
+					Chơi game
+				</li>
+				<li>
+					Đọc sách, tài liệu lịch sử và kiến thức chung
+				</li>
+				<li>
+					Xem phim
+				<li>
+					Nghịch linh kiện cũ
+				</li>
+				<li>
+					<strike>Cà khịa
+				</li>
+			</ul>
+	<br>
+	<div class="back"><image><a href="index.html"><image src="resources/main/back.png"style="width:50px;height:50px" alt="Quay lại">
+	<div class="logout"><image><a href="login.html"><image src="resources/main/l_out.png"style="width:50px;height:50px" alt="Đăng xuất">
+</body>
+</html>
